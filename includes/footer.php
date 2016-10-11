@@ -13,54 +13,6 @@
         <!--[if IE 9 ]>
             <script src="vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
         <![endif]-->
-
-        <!-- Data Table -->
-        <script type="text/javascript">
-            $(document).ready(function(){
-                //Basic Example
-                $("#data-table-basic").bootgrid({
-                    css: {
-                        icon: 'zmdi icon',
-                        iconColumns: 'zmdi-view-module',
-                        iconDown: 'zmdi-sort-amount-desc',
-                        iconRefresh: 'zmdi-refresh',
-                        iconUp: 'zmdi-sort-amount-asc'
-                    },
-                });
-
-                //Selection
-                $("#data-table-selection").bootgrid({
-                    css: {
-                        icon: 'zmdi icon',
-                        iconColumns: 'zmdi-view-module',
-                        iconDown: 'zmdi-sort-amount-desc',
-                        iconRefresh: 'zmdi-refresh',
-                        iconUp: 'zmdi-sort-amount-asc'
-                    },
-                    selection: true,
-                    multiSelect: true,
-                    rowSelect: true,
-                    keepSelection: true
-                });
-
-                //Command Buttons
-                $("#data-table-command").bootgrid({
-                    css: {
-                        icon: 'zmdi icon',
-                        iconColumns: 'zmdi-view-module',
-                        iconDown: 'zmdi-sort-amount-desc',
-                        iconRefresh: 'zmdi-refresh',
-                        iconUp: 'zmdi-sort-amount-asc'
-                    },
-                    formatters: {
-                        "commands": function(column, row) {
-                            return "<button type=\"button\" class=\"btn btn-sm bgm-green command-edit waves-effect\" data-row-id=\"" + row.id + "\">View</button> " ;
-                        }
-                    }
-                });
-            });
-        </script>
-
         <script src="js/app.min.js"></script>
          </div>    
     </body>

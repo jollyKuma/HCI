@@ -9,21 +9,24 @@
    </div>
      <ol class="breadcrumb" style="margin-left:-290px">
                 <li><a href="#">Home</a></li>
-                <li><a  class="active c-blue" href="#">Loads</a></li>
+                <li><a href="dashboard.php">Loads</a></li>
+                <li><a class="active c-blue" href="#">ITFUND11-LEC</a></li>
             </ol>
+             <button class="btn bgm-red btn-icon pull-right"><i class="zmdi zmdi-print "></i></button>
    <table id="data-table-command" class="table table-striped table-vmiddle"  >
       <thead>
          <tr>
-            <th data-column-id="edp">EDP Code</th>
-            <th data-column-id="subject">Subject</th>
-            <th data-column-id="time" data-width="10%">Time</th>
-            <th data-column-id="days">Days</th>
-            <th data-column-id="room">Room</th>
-            <th data-column-id="dept">Dept</th>
-            <th data-column-id="units">Units</th>
-            <th data-column-id="size">Size</th>
-            <th data-column-id="status">Status</th>
-            <th data-column-id="commands" data-formatter="commands" data-sortable="false">Action</th>
+            <th data-column-id="seq" data-width="10%">Seq #</th>
+            <th data-column-id="student" data-width="10%">Student ID</th>
+            <th data-column-id="lastname">Lastname</th>
+            <th data-column-id="firstname">Firstname</th>
+            <th data-column-id="mi">M.I.</th>
+            <th data-column-id="course">Course</th>
+            <th data-column-id="year">Year</th>
+            <th data-column-id="midterm">Midterm Grade</th>
+            <th data-column-id="final">Final Grade</th>
+            <th data-column-id="remarks">Remarks</th>
+            <th data-column-id="warning">Warning</th>
          </tr>
       </thead>
       <tbody>

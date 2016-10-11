@@ -13,6 +13,13 @@
         
         <link href="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
         <link href="vendors/bootgrid/jquery.bootgrid.min.css" rel="stylesheet">
+       
+        <link href="vendors/bower_components/bootstrap-select/dist/css/bootstrap-select.css" rel="stylesheet">
+        <link href="vendors/bower_components/nouislider/distribute/nouislider.min.css" rel="stylesheet">
+        <link href="vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+        <link href="vendors/farbtastic/farbtastic.css" rel="stylesheet">
+        <link href="vendors/bower_components/chosen/chosen.css" rel="stylesheet">
+        <link href="vendors/summernote/dist/summernote.css" rel="stylesheet">
         <!-- CSS -->
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/app_1.min.css" rel="stylesheet">
