@@ -4,17 +4,27 @@
 <div class="card" style="margin-top:5%">
    <div class="card-header">
       <h2 class="text-center">First Semester S.Y 2016-2017<span class="c-orange">(Midterm)</span>
+      <small>ITFUND11-LEC 4:30 -5:30 PM/MW/530B</small>
       </h2>
      
    </div>
-     <ol class="breadcrumb" style="margin-left:-290px">
-                <li><a href="#">Home</a></li>
-                <li><a href="dashboard.php">Loads</a></li>
-                <li><a class="active c-blue" href="#">ITFUND11-LEC</a></li>
-            </ol>
-             <button class="btn bgm-red btn-icon pull-right"><i class="zmdi zmdi-print "></i></button>
+      
+         <div class="container">
+            
+                <ol class="breadcrumb" style="margin-left:-227px">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="dashboard.php">Loads</a></li>
+                            <li><a class="active c-blue" href="#">ITFUND11-LEC</a></li>
+                </ol>
+       <div class="btn-demo" style="float:right;margin-top:-105px;">
+    <button class="btn btn-default btn-icon"><i class="zmdi zmdi-file-text"></i></button>
+                                <button class="btn btn-default bgm-blue btn-icon"><i class="zmdi zmdi-download"></i></button>
+                               <a href="javascript:window.print();"> <button class="btn btn-default bgm-red  btn-icon"><i class="zmdi zmdi-print"></i></button></a>
+   </div>
+        </div>
    <table id="data-table-command" class="table table-striped table-vmiddle"  >
       <thead>
+      <div class="print">
          <tr>
             <th data-column-id="seq" data-width="10%">Seq #</th>
             <th data-column-id="student" data-width="10%">Student ID</th>
@@ -31,127 +41,149 @@
       </thead>
       <tbody>
         <tr>
-                <td>19372</td>
-                <td>ITFUND11- LEC</td>
-                <td>4:30PM - 5:30PM</td>
-                <td>MW</td>
-                <td>530B</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>48</td>
-                <td>APPROVED</td>
+                <td>1</td>
+                <td>15403595</td>
+                <td>Abella</td>
+                <td>Aryle Nino</td>
+                <td>B.</td>
+                <td>ACT</td>
+                <td>1</td>
+                <td>2.4</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
         </tr>      
-          <tr>
-                <td>20438</td>
-                <td>COMORG21- LEC</td>
-                <td>11:30AM - 12:30PM</td>
-                <td>MWF</td>
-                <td>614</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>49</td>
-                <td>APPROVED</td>
-        </tr>
-        <tr>
-                <td>20578</td>
-                <td>COMORG21- LEC</td>
-                <td>8:30AM - 9:30PM</td>
-                <td>MWF</td>
-                <td>537</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>50</td>
-                <td>APPROVED</td>
-        </tr>
-        <tr>
-                <td>20602</td>
-                <td>COMORG21- LEC</td>
-                <td>1:30PM - 2:30PM</td>
-                <td>MWF</td>
-                <td>613</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>47</td>
-                <td>APPROVED</td>
-        </tr>
-        <tr>
-                <td>20792</td>
-                <td>COMORG21- LEC</td>
-                <td>1:30PM - 3:00PM</td>
-                <td>TTH</td>
-                <td>537</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>47</td>
-                <td>APPROVED</td>
-        </tr>
-        <tr>
-                <td>20909</td>
-                <td>COMORG21- LEC</td>
-                <td>3:00PM - 4:30PM</td>
-                <td>TTH</td>
-                <td>614</td>
-                <td>IA</td>
-                <td>3.0</td>
-                <td>47</td>
-                <td>APPROVED</td>
-        </tr>
-                <tr>
-                <td>20905</td>
-                <td>COMORG21- LEC</td>
-                <td>1:00PM - 3:00PM</td>
-                <td>TTH</td>
-                <td>614</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>50</td>
-                <td>APPROVED</td>
-        </tr>
-        <tr>
-                <td>20933</td>
-                <td>COMORG21- LEC</td>
-                <td>9:30AM - 10:30AM</td>
-                <td>MWF</td>
-                <td>614</td>
-                <td>IA</td>
-                <td>3.0</td>
-                <td>45</td>
-                <td>APPROVED</td>
-        </tr>
          <tr>
-                <td>40933</td>
-                <td>OPSYS</td>
-                <td>4:30AM - 5:30PM</td>
-                <td>MWF</td>
-                <td>538</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>39</td>
-                <td>APPROVED</td>
-        </tr>
+                <td>2</td>
+                <td>16525768</td>
+                <td>Agcopra</td>
+                <td>James Gabriel</td>
+                <td>A.</td>
+                <td>ACT</td>
+                <td>1</td>
+                <td>2.6</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
         <tr>
-                <td>30933</td>
-                <td>OPSYS</td>
-                <td>4:00AM - 5:30PM</td>
-                <td>TTH</td>
-                <td>538</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>35</td>
-                <td>APPROVED</td>
-        </tr>
-              <tr>
-                <td>30933</td>
-                <td>FREEELHCI</td>
-                <td>5:00AM - 6:30PM</td>
-                <td>TTH</td>
-                <td>536</td>
-                <td>IT</td>
-                <td>3.0</td>
-                <td>40</td>
-                <td>APPROVED</td>
-        </tr>
-
+                <td>3</td>
+                <td>15464415</td>
+                <td>Amaba</td>
+                <td>Bonifacia</td>
+                <td>B.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>2.2</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+      <tr>
+                <td>4</td>
+                <td>15459084</td>
+                <td>Apura</td>
+                <td>Nino</td>
+                <td>A.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>1.8</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+           <tr>
+                <td>5</td>
+                <td>16529661</td>
+                <td>Aragoncillo</td>
+                <td>June Braine</td>
+                <td>A.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>1.9</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+            <tr>
+                <td>6</td>
+                <td>16519720</td>
+                <td>Bayno</td>
+                <td>Markey</td>
+                <td>U.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>3.1</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+            <tr>
+                <td>7</td>
+                <td>16515645</td>
+                <td>Canete</td>
+                <td>Keith Ryan</td>
+                <td>R.</td>
+                <td>ACT</td>
+                <td>1</td>
+                <td>2.4</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+            <tr>
+                <td>8</td>
+                <td>15487902</td>
+                <td>Canoy</td>
+                <td>Abegail</td>
+                <td>Z.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>1.3</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+            <tr>
+                <td>9</td>
+                <td>19876541</td>
+                <td>Delima</td>
+                <td>Leila</td>
+                <td>X.</td>
+                <td>ACT</td>
+                <td>1</td>
+                <td>3W</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+            <tr>
+                <td>10</td>
+                <td>15476246</td>
+                <td>De Castro</td>
+                <td>Junli</td>
+                <td>B.</td>
+                <td>ACT</td>
+                <td>1</td>
+                <td>3.4</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+    <tr>
+                <td>11</td>
+                <td>16123490</td>
+                <td>Encantia</td>
+                <td>Jovie</td>
+                <td>V.</td>
+                <td>BSIT</td>
+                <td>1</td>
+                <td>2.7</td>
+                <td>_</td>
+                <td>_</td>
+                <td>_</td>
+        </tr>  
+        </div>
       </tbody>
    </table>
 </div>

@@ -9,3 +9,14 @@
     width: 50%;
     margin-top:-100px;
 }
+@media print {
+  a {
+    display: none
+  }
+  .screen {
+    display: none
+  }
+  .print {
+    display: block
+  }
+}
